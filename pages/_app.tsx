@@ -13,7 +13,6 @@ import { alchemyProvider } from "wagmi/providers/alchemy";
 import { publicProvider } from "wagmi/providers/public";
 
 import { CoinbaseWalletConnector } from "wagmi/connectors/coinbaseWallet";
-import { InjectedConnector } from "wagmi/connectors/injected";
 import { MetaMaskConnector } from "wagmi/connectors/metaMask";
 import { WalletConnectConnector } from "wagmi/connectors/walletConnect";
 
@@ -43,7 +42,6 @@ const client = createClient({
     }),
   ],
   provider,
-  // webSocketProvider,
 });
 
 const MyApp = ({ Component, pageProps }: AppProps) => {
