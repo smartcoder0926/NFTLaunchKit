@@ -43,7 +43,7 @@ const ConnectModal: FC<ConnectModalProps> = ({ open, onClose, modalTitle }) => {
             >
               <Image
                 src={Icons[connector.id + "Icon"]}
-                alt={"coinbase"}
+                alt={connector.id}
                 width={24}
                 height={24}
               />
