@@ -1,5 +1,4 @@
 import React, { FC } from "react";
-// import { useConnect, useDisconnect } from "wagmi";
 import Image from "next/image";
 import BaseModal, { BaseModalProps } from "components/baseModal";
 import metaMaskIcon from "public/assets/metamask.svg";
